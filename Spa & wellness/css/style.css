@@ -85,7 +85,7 @@ nav li {
 }
 
 .main-text .offer-btn:hover {
-    background-color: #004c00;
+    background-color: #647e32;
 }
 
 /*Why us*/
@@ -194,4 +194,50 @@ nav li {
     background-image: url("../images/pexels-photo-259810.jpeg");
     background-position: center;
     
+}
+
+/*Newsletter*/
+
+.newsletter {
+    height: 120px;
+    background-color: #9ac051;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.newsletter h5 {
+    text-transform: uppercase;
+    font-family: "Times New Roman", serif;
+    font-size: 16px;
+    margin: 0 0 15px 0;
+}
+
+.newsletter-form {
+    display: flex;
+    justify-content: center
+}
+
+.newsletter-form input,
+.newsletter-form button {
+    border-radius: 5px;
+    border: none;
+    font-size: 10px;
+}
+
+.newsletter input {
+    margin-right: 15px;
+    padding: 5px 15px;
+    width: 250px;
+}
+
+.newsletter-form button {
+    background-color: #647e32;
+    color: #fff;
+    padding: 0 15px;
+}
+
+.gallery {
+    height: 300px;
 }
