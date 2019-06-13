@@ -238,6 +238,63 @@ nav li {
     padding: 0 15px;
 }
 
-.gallery {
-    height: 300px;
+/*Slider*/
+
+.slider-container {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.previous-arrow,
+.next-arrow {
+    color: #f2f2f2;
+    padding: 20px;
+}
+
+.previous-arrow:hover,
+.next-arrow:hover {
+    color: #9ac051;
+}
+
+.slider-container i {
+    font-size: 25px;
+}
+
+.slider li img {
+    width: 500px;
+    border-radius: 5px;
+}
+
+.slider-stage {
+    width: 500px;
+}
+
+.slider {
+    list-style: none;
+    padding: 0;
+    width: 500px;
+    display: flex;
+    overflow-x: hidden;
+    
+}
+
+/*Go up*/
+
+.go-up {
+height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.go-up i {
+    font-size: 25px;
+    color: #444444;
+    cursor: pointer;
+}
+
+.go-up:hover {
+    color: #9ac051;
 }
