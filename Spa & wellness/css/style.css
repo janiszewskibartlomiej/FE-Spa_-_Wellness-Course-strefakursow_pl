@@ -295,6 +295,54 @@ height: 50px;
     cursor: pointer;
 }
 
-.go-up:hover {
+.go-up i:hover {
     color: #9ac051;
+}
+
+/*Footer*/
+
+footer {
+    display: flex;
+    background-color: #444444;
+    padding: 60px 100px;
+    color: #fff;
+}
+
+footer > section {
+    width: 200px;
+}
+
+.about-us h5 {
+    font-family: "Times New Roman", serif;
+    font-weight: 200;
+    margin: 0 0 10px 0;
+}
+
+.about-us p {
+    font-size: 8px;
+    line-height: 2;
+}
+
+.social-media {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.social-media li {
+    background-color: #9ac051;
+    margin-right: 10px;
+    height: 25px;
+    width: 25px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+social-media a {
+    color: #fff;
+    text-decoration: none;
 }
