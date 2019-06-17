@@ -321,6 +321,7 @@ footer > section {
 .about-us p {
     font-size: 8px;
     line-height: 2;
+    margin: 0 0 20px 0;
 }
 
 .social-media {
@@ -345,4 +346,32 @@ footer > section {
 social-media a {
     color: #fff;
     text-decoration: none;
+}
+
+.contact-details {
+    width: 140px;
+    margin-left: 25px;
+}
+
+.contact-details ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-details li {
+    font-size: 10px;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.contact-details i {
+    margin-right: 10px;
+    color: #9ac051;
+}
+
+.contact-details li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 9px;
 }
