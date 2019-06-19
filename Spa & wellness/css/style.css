@@ -349,7 +349,7 @@ social-media a {
 }
 
 .contact-details {
-    width: 140px;
+    width: 160px;
     margin-left: 25px;
 }
 
@@ -361,7 +361,7 @@ social-media a {
 
 .contact-details li {
     font-size: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 11px;
     display: flex;
 }
 
@@ -374,4 +374,37 @@ social-media a {
     color: #fff;
     text-decoration: none;
     font-size: 9px;
+}
+
+.quick-links {
+    display: flex;
+    width: 400px;
+    margin-left: 30px;
+}
+
+.quick-links ul {
+    padding: 0;
+    margin: 0 10px 0 0;
+    list-style: none;
+    width: 150px;
+}
+
+.quick-links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.quick-links li {
+    border-bottom: .5px solid #666464;
+    padding: 11px 0;
+}
+
+.quick-links ul li:first-child {
+    padding-top: 0;
+}
+
+.quick-links a i {
+    color: #9ac051;
+    font-size: 8px;
+    margin-right: 8px;
 }
