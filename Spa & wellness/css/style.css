@@ -459,3 +459,9 @@ social-media a {
     color: #fff;
     background-color: #9ac051;
 }
+
+/*additional-paragraph*/
+
+.additional-paragraph {
+    display: none;
+}

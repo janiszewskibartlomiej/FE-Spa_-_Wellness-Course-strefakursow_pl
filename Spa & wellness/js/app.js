@@ -12,4 +12,22 @@ document.addEventListener("DOMContentLoaded", function() {
        this.style.display = "none"; 
     });
 
-    });
+    // read more-less
+    const readMoreLessBtns = document.querySelectorAll(".read-more-less-btn");
+    
+    function showHideText() {
+        const siblinText = this.previousElementSibling;
+        if (siblinText.style.display === "none" || siblinText.style.display === "" ) {
+            siblinText.style.display = "block";
+            this.textContent = "Czytaj mniej";
+        } else {
+            siblinText.style.display = "none";
+            this.textContent = "Czytaj więcej";}
+    }
+    
+        
+    for (let i = 0; i < readMoreLessBtns.length; i++) {
+        readMoreLessBtns[i].addEventListener("click", showHideText);
+    }
+    
+});
