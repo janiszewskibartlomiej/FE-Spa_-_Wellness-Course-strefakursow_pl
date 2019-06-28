@@ -36,12 +36,26 @@ document.addEventListener("DOMContentLoaded", function() {
 
     const input = document.querySelector(".newsletter-form input");
     const newsletterBtn = document.querySelector(".newsletter-form button");
-    
+    const formInfo = document.querySelector(".form-info");
     //console.log(input, newsletterBtn);
     
     newsletterBtn.addEventListener("click", function(event) {
         event.preventDefault();
-        console.log(input.value);
+       // console.log(input.value);
+        formInfo.style.display = "block"
+    
+        if (input.value !=="") {
+           // formInfo.style.display = "block";
+            formInfo.textContent = "Zapisano do newslettera";
+            formInfo.style.color = "white";
+        } else {
+            //formInfo.style.display = "block";
+            formInfo.textContent = "Pole nie może być puste, podaj adress email";
+            formInfo.style.color = "red";
+        }
     });
+    
+    
+    
     
 });

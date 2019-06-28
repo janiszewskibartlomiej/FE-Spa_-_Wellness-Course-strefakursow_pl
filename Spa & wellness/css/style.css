@@ -460,8 +460,13 @@ social-media a {
     background-color: #9ac051;
 }
 
-/*additional-paragraph*/
+/*Additional-paragraph*/
 
 .additional-paragraph {
+    display: none;
+}
+
+.form-info {
+    text-align: center;
     display: none;
 }
