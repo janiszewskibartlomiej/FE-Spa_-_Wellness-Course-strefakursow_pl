@@ -269,6 +269,7 @@ nav li {
 
 .slider-stage {
     width: 500px;
+    overflow-x: hidden;  /*ukrycie galerii zdjęć na całym kontenerze*/
 }
 
 .slider {
@@ -276,8 +277,9 @@ nav li {
     padding: 0;
     width: 500px;
     display: flex;
-    overflow-x: hidden;
+    position: relative; /*możemy dzięki temu zmieniać pozycję na top botom itd w tym wypadku slider nie zmienia swojej pozycji. Teraz jeżeli zmienimy pozycję slidera na np + 500px [right: 500px]zobaczymy kolejne zdjecie jak zmienimy na -500px [left: -500px;] też zobaczymy inne zdjęcie i ten mechanizmy wykożystamy w JS do zmiany zdjęć */
     
+    right: 1000px;
 }
 
 /*Go up*/

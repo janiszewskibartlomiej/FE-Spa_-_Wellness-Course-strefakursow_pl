@@ -55,7 +55,26 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
     
+    // slider
+    const slider = document.querySelector(".slider");
+    const sliderStage = document.querySelector(".slider-stage");
+    const sliders = document.querySelectorAll(".slider li");
+    const prev = document.querySelector(".previous-arrow");
+    const next = document.querySelector(".next-arrow");
     
+    const sliderWidth = sliders[0].clientWidth;
+    let currentIndex = 0;
+    let slidersNumber = slider.length -1;
     
+    function goToSlider(index) {
+        slider.style.left = index * (-sliderWidth) + "px";
+        currentIndex = index;
+    }
+    
+    goToSlider(2);
+    
+//    console.log(slider, sliderStage, sliders)
+//    console.log(prev, next)
+//    console.log(sliderWidth)
     
 });
