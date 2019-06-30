@@ -104,4 +104,14 @@ document.addEventListener("DOMContentLoaded", function() {
     setInterval(slideToNext, 3000); //wbudowana fukcja która wywułej daną funkcję co ileś milisekund w naszym wypadku wywoluje funkcje slideToNext co 3 sekundy
     
     
+    //go-up button
+    
+    const goUpBtn = document.querySelector(".go-up")
+    goUpBtn.addEventListener("click", function() {
+       window.scroll({
+          top: 0,
+           left: 0,
+           behavior: "smooth"
+       }); 
+    });
 });
