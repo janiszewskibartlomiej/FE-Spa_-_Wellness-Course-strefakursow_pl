@@ -251,11 +251,13 @@ nav li {
 .next-arrow {
     color: #f2f2f2;
     padding: 20px;
+    cursor: pointer;
 }
 
 .previous-arrow:hover,
 .next-arrow:hover {
     color: #9ac051;
+    
 }
 
 .slider-container i {
@@ -279,7 +281,7 @@ nav li {
     display: flex;
     position: relative; /*możemy dzięki temu zmieniać pozycję na top botom itd w tym wypadku slider nie zmienia swojej pozycji. Teraz jeżeli zmienimy pozycję slidera na np + 500px [right: 500px]zobaczymy kolejne zdjecie jak zmienimy na -500px [left: -500px;] też zobaczymy inne zdjęcie i ten mechanizmy wykożystamy w JS do zmiany zdjęć */
     
-    right: 1000px;
+/*    right: 1000px;*/
 }
 
 /*Go up*/
